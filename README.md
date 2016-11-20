@@ -46,7 +46,7 @@ TaipeiTechApp
 
 5. 各種icon的檔案
 
-程式碼的部分，多以Package分開
+[程式碼](taipeiTech/src/main/java/com/taipeitech)的部分，多以Package分開
 
 1. [活動報報](taipeiTech/src/main/java/com/taipeitech/activity)
 
