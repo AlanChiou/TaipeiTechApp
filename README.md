@@ -80,6 +80,11 @@ TaipeiTechApp
 
 2. 活動報報的[JSON檔案](http://taipeitechapp.neocities.org/activity.json)和[活動海報](http://taipeitechapp.neocities.org/b4699242-9fdb-4055-8816-84e372c5e575.jpg)
 
+Google Analytics
+----
+
+這個App裡面有使用Google Analytics去記錄使用者的行為，我並沒有把相關的code跟檔案移除，所以仍然會記錄到我的Google Analytics上，請要研究或繼續發展下去的開發者，記得移除相關的程式碼。
+
 已知的 Issue
 ----
 
