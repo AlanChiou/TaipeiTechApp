@@ -34,21 +34,37 @@ TaipeiTechApp
 
 檔案介紹
 ----
-Document資料夾內放著以下檔案
+[Document](Document/)資料夾內放著以下檔案
 
-1. 過去每一版Release的Apk
+1. [過去每一版Release的Apk](Document/Apk)
 
-2. 每次更新活動報報的檔案(圖檔和App讀取的格式)
+2. [每次更新活動報報的檔案(圖檔和App讀取的格式)](Document/活動報報)
 
-3. App讀取的行事曆的格式
+3. [App讀取的行事曆的格式及產生器](Document/行事曆)
 
-4. 學分計算與離線課表的教學圖檔
+4. [學分計算](Document/學分篩選教學)與[離線課表](Document/離線課表教學)的教學圖檔
 
 5. 各種icon的檔案
 
+程式碼的部分，多以Package分開
+
+1. [活動報報](taipeiTech/src/main/java/com/taipeitech/activity)
+
+2. [行事曆](taipeiTech/src/main/java/com/taipeitech/calendar)
+
+3. [課表查詢](taipeiTech/src/main/java/com/taipeitech/course)
+
+4. [學分計算](taipeiTech/src/main/java/com/taipeitech/credit)
+
+5. [Ntutcc自動連線](taipeiTech/src/main/java/com/taipeitech/wifi)
+
+6. [帳號設定](taipeiTech/src/main/java/com/taipeitech/setting)
+
+7. 依據MVC架構簡單實作一個[Model](taipeiTech/src/main/java/com/taipeitech/model/Model.java)物件
+
 除了Ducument資料夾以外的檔案都是Android Studio Project檔案，直接下載Zip檔案大約50.8 MB。
 
-單純程式碼的話只有1.3 MB。
+單純Source Code的話只有1.3 MB。
 
 已知的 Issue
 ----
