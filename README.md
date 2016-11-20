@@ -66,6 +66,20 @@ TaipeiTechApp
 
 單純Source Code的話只有1.3 MB。
 
+資料Server
+----
+主要是將JSON檔案放到網路上的免費網頁空間，讓App去讀取。
+
+用在活動報報與行事曆這兩個功能
+
+程式碼裡使用的網頁空間是[Neocities](https://neocities.org/)
+
+讀取方式是直接固定讀取某個JSON檔案，例如
+
+1. 行事曆的[JSON檔案](http://taipeitechapp.neocities.org/calendar.json)
+
+2. 活動報報的[JSON檔案](http://taipeitechapp.neocities.org/activity.json)和[活動海報](http://taipeitechapp.neocities.org/b4699242-9fdb-4055-8816-84e372c5e575.jpg)
+
 已知的 Issue
 ----
 
