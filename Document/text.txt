@@ -1,0 +1,3 @@
+你好
+我是TaipeiTechApp Android版的作者，App上有提供社團宣傳及活動提醒的功能，宣傳時間為資料上傳後至活動結束日，越早上傳越早開始宣傳，歡迎使用
+https://docs.google.com/forms/d/1XZ3iI1BEZlJ2WGPWBoxiDBzT67BjcrPrugY32iJQNkE/viewform?c=0&w=1
