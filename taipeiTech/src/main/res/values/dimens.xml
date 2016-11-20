@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textSmall">14sp</dimen>
+    <dimen name="textMedium">16sp</dimen>
+    <dimen name="textLarge">24sp</dimen>
+    <dimen name="courseText">12sp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+    <dimen name="settingPadding">20dp</dimen>
+
+</resources>

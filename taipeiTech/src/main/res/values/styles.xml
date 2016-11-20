@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="colorAccent">@color/darken</item>
+        <item name="android:spinnerStyle">@style/Widget.AppCompat.Spinner.Underlined</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="CourseTableCell">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/darken</item>
+        <item name="android:textSize">@dimen/courseText</item>
+    </style>
+
+    <style name="CourseWidgetRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="CourseWidgetCell">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/darken</item>
+        <item name="android:textSize">@dimen/courseText</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="CourseWidgetTitleCell">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/courseText</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="CourseWidgetTitleCell.X">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">1dp</item>
+    </style>
+
+    <style name="CourseWidgetTitleCell.Y">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+
+    <style name="CourseWidgetRow.Cloud">
+        <item name="android:background">#20000000</item>
+    </style>
+
+    <style name="WhiteText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WhiteText.Small">
+        <item name="android:textSize">@dimen/textSmall</item>
+    </style>
+
+    <style name="WhiteText.Medium">
+        <item name="android:textSize">@dimen/textMedium</item>
+    </style>
+
+    <style name="WhiteText.Large">
+        <item name="android:textSize">@dimen/textLarge</item>
+    </style>
+
+    <style name="DarkenText">
+        <item name="android:textColor">@color/darken</item>
+    </style>
+
+    <style name="DarkenText.Small">
+        <item name="android:textSize">@dimen/textSmall</item>
+    </style>
+
+    <style name="DarkenText.Medium">
+        <item name="android:textSize">@dimen/textMedium</item>
+    </style>
+
+    <style name="DarkenText.Large">
+        <item name="android:textSize">@dimen/textLarge</item>
+    </style>
+
+</resources>

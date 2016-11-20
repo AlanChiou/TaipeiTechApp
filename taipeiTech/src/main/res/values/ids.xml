@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="data_tag" type="id"/>
+    <item name="account_edittext" type="id"/>
+    <item name="password_edittext" type="id"/>
+    <item name="save_button" type="id"/>
+    <item name="clear_button" type="id"/>
+    <item name="refresh_button" type="id"/>
+    <item name="login_button" type="id"/>
+    <item name="wifi_listview" type="id"/>
+    <item name="radar_chart" type="id"/>
+    <item name="swipe_container" type="id"/>
+    <item name="course_container" type="id"/>
+
+
+    <!--Menu-->
+    <item name="item_update" type="id"/>
+    <item name="item_save" type="id"/>
+    <item name="item_clear" type="id"/>
+    <item name="item_query" type="id"/>
+    <item name="item_standard_credit" type="id"/>
+    <item name="item_clear_standard_credit" type="id"/>
+</resources>

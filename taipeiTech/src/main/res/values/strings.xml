@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global -->
+    <string name="app_name">TaipeiTech</string>
+    <string name="title">Taipei Tech App</string>
+    <string name="donate_text">捐款</string>
+    <string name="play_store_text">Play商店</string>
+    <string name="play_store_not_support">無法開啟Play商店！</string>
+    <string name="press_again_to_exit">再按一次將返回桌面！</string>
+    <string name="web_back_hint">實體返回鍵，可以回到前一瀏覽頁面！</string>
+    <string name="back">返回</string>
+    <string name="start_query">開始查詢</string>
+    <string name="tool_text">選單</string>
+    <string name="menu_prompt">功能</string>
+    <string name="check_network_available">請檢查您的網路連線狀態，或再試一次！</string>
+    <string name="version_text">version %s by Alan Chiou</string>
+    <string name="open_drawer">打開</string>
+    <string name="close_drawer">關閉</string>
+    <string name="account_password_empty_toast_text">請先至帳號設定，設定校園入口網站帳號密碼！</string>
+
+    <!-- Activity -->
+    <string name="activity_text">活動報報</string>
+    <string name="share_using">分享此活動</string>
+    <string name="activity_update">更新活動</string>
+
+    <!-- Calendar -->
+    <string name="calendar_text">行事曆</string>
+    <string name="add_to_calendar">加入行事曆</string>
+    <string name="calendar_not_support">此手機不支援加入行事曆功能！</string>
+    <string name="calendar_update">更新目前學年度行事曆</string>
+
+    <!-- Course -->
+    <string name="course_text">課表查詢</string>
+    <string name="id_text">學號</string>
+    <string name="search_text">查詢</string>
+    <string name="course_detail_title">課程詳細資訊</string>
+    <string name="course_detail">課程資料</string>
+    <string name="classmates">學生名單</string>
+    <string name="course_offline_save">將目前課表設為離線瀏覽</string>
+    <string name="course_offline_clear">清除離線瀏覽課表</string>
+    <string name="mon">一</string>
+    <string name="tue">二</string>
+    <string name="wed">三</string>
+    <string name="thu">四</string>
+    <string name="fri">五</string>
+    <string name="sat">六</string>
+    <string name="sun">日</string>
+    <string name="first">1</string>
+    <string name="second">2</string>
+    <string name="third">3</string>
+    <string name="fourth">4</string>
+    <string name="fifth">5</string>
+    <string name="sixth">6</string>
+    <string name="seventh">7</string>
+    <string name="eighth">8</string>
+    <string name="ninth">9</string>
+    <string name="tenth">A</string>
+    <string name="eleventh">B</string>
+    <string name="twelfth">C</string>
+    <string name="thirteenth">D</string>
+
+    <!-- Credit -->
+    <string name="credit_text">學分計算</string>
+    <string name="semester">學期</string>
+    <string name="year">入學年度</string>
+    <string name="division">學制</string>
+    <string name="department">系所</string>
+    <string name="credit_type">學分類別</string>
+    <string name="credit_query">學分資訊查詢〈需要一些時間〉</string>
+    <string name="credit_standard_credit">畢業學分標準設定</string>
+    <string name="credit_clear">清除學分資訊</string>
+    <string name="credit_clear_standard_credit">清除畢業學分標準</string>
+
+    <!-- Wifi -->
+    <string name="wifi_text">Ntutcc登入</string>
+    <string name="current_wifi">目前偵測到的Wifi</string>
+    <string name="login">認證登入</string>
+    <string name="scan">重新掃描</string>
+
+    <!-- Setting -->
+    <string name="account_setting_text">帳號設定</string>
+    <string name="portal_title">校園入口網站</string>
+    <string name="password_text">密碼</string>
+    <string name="save_button">儲存</string>
+    <string name="clear_button">清除</string>
+    <string name="nportal_loggingin">校園入口網站登入中~</string>
+    <string name="nportal_text"><u>校園入口網站</u></string>
+    <string name="right_link"><u>免責聲明</u></string>
+    <string name="right_text">免責聲明</string>
+    <string name="right">本軟體僅提供免費測試，但不保證運作正確性，同時不承擔造成任何一方的損失、賠償、補償、資安風險與衍生責任，使用時用戶須同意自行承擔一切風險。〈同意此聲明才被授權使用本軟體，如不同意請勿安裝使用，作者保留修改權利〉</string>
+    <string name="save_success">帳號密碼已儲存！</string>
+    <string name="account_empty_error_message">請填入學號</string>
+    <string name="password_empty_error_message">請填入密碼</string>
+
+    <!-- Analytics -->
+    <string name="analytics_category_activity">Activity Fragment</string>
+    <string name="analytics_category_calendar">Calendar Fragment</string>
+    <string name="analytics_category_course">Course Fragment</string>
+    <string name="analytics_category_credit">Credit Fragment</string>
+    <string name="analytics_category_wifi">Wifi Fragment</string>
+    <string name="analytics_category_setting">Setting Fragment</string>
+    <string name="analytics_category_course_widget">Course Widget</string>
+    <string name="analytics_action_update">Update</string>
+    <string name="analytics_action_add">Add</string>
+    <string name="analytics_action_remove">Remove</string>
+    <string name="analytics_action_detail">Detail</string>
+    <string name="analytics_action_add_to_calendar">AddToCalendar</string>
+    <string name="analytics_action_share">Share</string>
+    <string name="analytics_action_save">Save</string>
+    <string name="analytics_action_save_snackbar">Save_SnackBar</string>
+    <string name="analytics_action_clear">Clear</string>
+    <string name="analytics_action_refresh">Refresh</string>
+    <string name="analytics_action_login">Login</string>
+    <string name="analytics_action_query">Query</string>
+    <string name="analytics_label_click">Click</string>
+    <string name="analytics_label_swipe">Swipe</string>
+</resources>

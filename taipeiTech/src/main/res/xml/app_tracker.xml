@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- End current session if app sleeps for a period of time -->
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!--  The property id associated with this analytics tracker -->
+    <string name="ga_trackingId">UA-66327251-1</string>
+
+    <!--
+      See Project Structure -> Analytics -> Google Analytics -> Learn More
+      to learn more about configuring this file.
+    -->
+
+    <!--Enable automatic exception tracking-->
+    <bool name="ga_reportUncaughtExceptions">false</bool>
+
+    <!-- The screen names that will appear in your reporting -->
+    <string name="com.taipeitech.MainActivity">Main</string>
+    <string name="com.taipeitech.DonateActivity">Donate</string>
+    <string name="com.taipeitech.PortalActivity">Portal</string>
+    <string name="com.taipeitech.course.CourseDetailActivity">CourseDetail</string>
+    <string name="com.taipeitech.credit.CreditTypeListActivity">CreditTypeList</string>
+</resources>

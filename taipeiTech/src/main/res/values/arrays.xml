@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="credit_type">
+        <item>略</item>
+        <item>○</item>
+        <item>△</item>
+        <item>☆</item>
+        <item>●</item>
+        <item>▲</item>
+        <item>★</item>
+    </string-array>
+    <string-array name="rank_type">
+        <item>班級排名</item>
+        <item>分組排名</item>
+        <item>系(科)所排名</item>
+    </string-array>
+    <string-array name="type_name">
+        <item>○部訂共同必修</item>
+        <item>△校訂共同必修</item>
+        <item>☆共同選修</item>
+        <item>●部訂專業必修</item>
+        <item>▲校訂專業必修</item>
+        <item>★專業選修</item>
+        <item>跨系選修上限學分</item>
+        <item>最低畢業學分</item>
+    </string-array>
+    <string-array name="tools">
+        <item>@string/activity_text</item>
+        <item>@string/calendar_text</item>
+        <item>@string/course_text</item>
+        <item>@string/credit_text</item>
+        <item>@string/wifi_text</item>
+        <item>@string/account_setting_text</item>
+    </string-array>
+    <string-array name="time_array">
+        <item>08:10 &#8211; 09:00</item>
+        <item>09:10 &#8211; 10:00</item>
+        <item>10:10 &#8211; 11:00</item>
+        <item>11:10 &#8211; 12:00</item>
+        <item>13:10 &#8211; 14:00</item>
+        <item>14:10 &#8211; 15:00</item>
+        <item>15:10 &#8211; 16:00</item>
+        <item>16:10 &#8211; 17:00</item>
+        <item>17:10 &#8211; 18:00</item>
+        <item>18:30 &#8211; 19:20</item>
+        <item>19:20 &#8211; 20:10</item>
+        <item>20:20 &#8211; 21:10</item>
+        <item>21:10 &#8211; 22:00</item>
+        <item></item>
+    </string-array>
+
+</resources>

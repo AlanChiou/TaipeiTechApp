@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/course_widget_table"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:background="#7f000000"
+              android:clickable="true"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <TextView
+            style="@style/CourseWidgetTitleCell.X"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            style="@style/CourseWidgetTitleCell.X"
+            android:text="@string/mon"/>
+
+        <TextView
+            style="@style/CourseWidgetTitleCell.X"
+            android:text="@string/tue"/>
+
+        <TextView
+            style="@style/CourseWidgetTitleCell.X"
+            android:text="@string/wed"/>
+
+        <TextView
+            style="@style/CourseWidgetTitleCell.X"
+            android:text="@string/thu"/>
+
+        <TextView
+            style="@style/CourseWidgetTitleCell.X"
+            android:text="@string/fri"/>
+
+        <TextView
+            android:id="@+id/course_widget_cell_0_6"
+            style="@style/CourseWidgetTitleCell.X"
+            android:text="@string/sat"/>
+
+        <TextView
+            android:id="@+id/course_widget_cell_0_7"
+            style="@style/CourseWidgetTitleCell.X"
+            android:text="@string/sun"/>
+
+        <TextView
+            android:id="@+id/course_widget_cell_0_8"
+            style="@style/CourseWidgetTitleCell.X"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/CourseWidgetRow.Cloud">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/first"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_1_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/second"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_2_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow.Cloud">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/third"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_3_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/fourth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_4_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow.Cloud">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/fifth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_5_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/sixth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_6_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow.Cloud">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/seventh"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_7_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/eighth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_8_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/CourseWidgetRow.Cloud">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/ninth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_9_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/course_widget_row_10"
+            style="@style/CourseWidgetRow">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/tenth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_10_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/course_widget_row_11"
+            style="@style/CourseWidgetRow.Cloud">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/eleventh"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_11_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/course_widget_row_12"
+            style="@style/CourseWidgetRow">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/twelfth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_12_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/course_widget_row_13"
+            style="@style/CourseWidgetRow.Cloud">
+
+            <TextView
+                style="@style/CourseWidgetTitleCell.Y"
+                android:text="@string/thirteenth"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_1"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_2"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_3"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_4"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_5"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_6"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_7"
+                style="@style/CourseWidgetCell"/>
+
+            <TextView
+                android:id="@+id/course_widget_cell_13_8"
+                style="@style/CourseWidgetCell"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="darken">#333333</color>
+    <color name="deep_darken">#222222</color>
+    <color name="cloud">#ECF0F1</color>
+    <color name="silver">#BDC3C7</color>
+    <color name="red">#E74C3C</color>
+    <color name="dark_red">#C0392B</color>
+    <color name="blue">#3498DB</color>
+    <color name="dark_blue">#2980B9</color>
+    <color name="purple">#9B59B6</color>
+    <color name="dark_purple">#8e44ad</color>
+    <color name="green">#2ECC71</color>
+    <color name="dark_green">#27AE60</color>
+    <color name="orange">#E67E22</color>
+    <color name="dark_orange">#D35400</color>
+    <color name="yellow">#f1c40f</color>
+    <color name="dark_yellow">#f39c12</color>
+    <color name="half_white">#60ffffff</color>
+    <color name="half_black">#60000000</color>
+    <color name="tool_press">#2a2a2a</color>
+
+    <color name="my_primary">#ED1C24</color>
+    <color name="my_primary_dark">#CC0000</color>
+    <color name="my_primary_light">#B3E5FC</color>
+    <color name="my_accent">#FF5722</color>
+    <color name="my_primary_text">#ffffff</color>
+    <color name="my_secondary_text">#ffffff</color>
+</resources>

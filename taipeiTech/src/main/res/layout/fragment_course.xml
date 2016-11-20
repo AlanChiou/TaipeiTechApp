@@ -1,0 +1,65 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 android:id="@+id/main_layout"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/person"/>
+
+            <EditText
+                android:id="@+id/sidText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:hint="@string/id_text"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:padding="3dp"
+                android:singleLine="true"
+                android:textColor="@color/darken"
+                android:textSize="@dimen/textMedium"/>
+
+            <com.taipeitech.course.SemesterSelector
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:id="@+id/semester"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:prompt="@string/semester"
+                android:textSize="@dimen/textMedium"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/cloud"/>
+
+        <com.taipeitech.course.CourseTableLayout
+            android:id="@+id/courseTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

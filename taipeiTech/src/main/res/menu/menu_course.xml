@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/item_save"
+        android:title="@string/course_offline_save"
+        android:visible="true"/>
+    <item
+        android:id="@id/item_clear"
+        android:title="@string/course_offline_clear"
+        android:visible="true"/>
+</menu>

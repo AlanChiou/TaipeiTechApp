@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sidebar_item_activity"
+            android:icon="@drawable/activity_icon"
+            android:title="@string/activity_text"/>
+        <item
+            android:id="@+id/sidebar_item_calendar"
+            android:icon="@drawable/calendar_icon"
+            android:title="@string/calendar_text"/>
+        <item
+            android:id="@+id/sidebar_item_course"
+            android:checked="true"
+            android:icon="@drawable/course_icon"
+            android:title="@string/course_text"/>
+        <item
+            android:id="@+id/sidebar_item_credit"
+            android:icon="@drawable/credit_icon"
+            android:title="@string/credit_text"/>
+        <item
+            android:id="@+id/sidebar_item_wifi"
+            android:icon="@drawable/wifi_icon"
+            android:title="@string/wifi_text"
+            android:visible="false"/>
+        <item
+            android:id="@+id/sidebar_item_account_setting"
+            android:icon="@drawable/account_setting_icon"
+            android:title="@string/account_setting_text"/>
+    </group>
+</menu>

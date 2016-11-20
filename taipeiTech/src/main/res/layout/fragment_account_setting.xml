@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/silver"
+              android:clickable="true"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white_block_background"
+        android:orientation="vertical"
+        android:padding="@dimen/settingPadding">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/account_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="2dp">
+
+                <EditText
+                    android:id="@id/account_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/id_text"
+                    android:inputType="text"
+                    android:textColor="@color/darken"
+                    android:textSize="@dimen/textMedium">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/account_input_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/taipei_tech_logo"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp">
+
+                <EditText
+                    android:id="@id/password_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password_text"
+                    android:inputType="textPassword"
+                    android:textColor="@color/darken"
+                    android:textSize="@dimen/textMedium">
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@id/save_button"
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/purple_selector"
+                    android:text="@string/save_button"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium">
+                </Button>
+
+                <Button
+                    android:id="@id/clear_button"
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/purple_selector"
+                    android:text="@string/clear_button"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium">
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/right_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/right_link"
+                android:textColor="@drawable/purple_color_selector"
+                android:textSize="@dimen/textMedium"/>
+
+            <TextView
+                android:id="@+id/nportal_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/nportal_text"
+                android:textColor="@drawable/purple_color_selector"
+                android:textSize="@dimen/textMedium"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

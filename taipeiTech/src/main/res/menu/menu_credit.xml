@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/item_query"
+        android:title="@string/credit_query"
+        android:visible="true"/>
+    <item
+        android:id="@id/item_standard_credit"
+        android:title="@string/credit_standard_credit"
+        android:visible="true"/>
+    <item
+        android:id="@id/item_clear"
+        android:title="@string/credit_clear"
+        android:visible="true"/>
+
+    <item
+        android:id="@id/item_clear_standard_credit"
+        android:title="@string/credit_clear_standard_credit"
+        android:visible="true"/>
+</menu>
