@@ -1,0 +1,91 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Calendar Data Converter</title>
+<style>
+	html {width: 100%;height: 100%;}
+	body {width: 100%;height: 100%;}
+	form {width: 100%;height: 100%;}
+	div {width: 100%;height: 100%;}
+</style>
+<script type="text/javascript">
+function handleClick(e) {
+	var semester = document.getElementsByName('semester')[0].value;
+	var events = document.getElementsByName('events')[0].value
+	var event_array = events .split(/\r?\n/g);	
+	var calendarObj = {};
+	calendarObj.semester = semester;
+	var eventListObj = [];
+	for (var i = 0; i < event_array.length; i++) {
+		var eventObj = { };
+		var event = event_array[i];
+		event = event.replace(" ","");
+		var regex = /(\d+)\/(\d+)[\-\~](\d+)\/(\d+)(?:\D+|)\)(\S+)/
+		var match = regex.exec(event);
+		if(match != null) 
+		{
+			eventObj.startDate = getYear(semester, match[1]) + "-" + match[1] + "-" + match[2];
+			eventObj.endDate = getYear(semester, match[3]) + "-" + match[3] + "-" + match[4];	
+			eventObj.event = match[5];
+			eventListObj[i] = eventObj;
+			continue;
+		}
+    		regex = /(\d+)\/(\d+)(?:\D+|)\)(\S+)/
+		match = regex.exec(event);
+		if(match != null) 
+		{
+			eventObj.startDate = getYear(semester, match[1]) + "-" + match[1] + "-" + match[2];
+			eventObj.endDate = getYear(semester, match[1]) + "-" + match[1] + "-" + match[2];	
+			eventObj.event = match[3];
+			eventListObj[i] = eventObj;
+			continue;
+		}
+		regex = /(\d+)\/(\d+)[\-\~](\d+)(?:\D+|)\)(\S+)/
+		match = regex.exec(event);
+		if(match != null) 
+		{
+			eventObj.startDate = getYear(semester, match[1]) + "-" + match[1] + "-" + match[2];
+			eventObj.endDate = getYear(semester, match[1]) + "-" + match[1] + "-" + match[3];	
+			eventObj.event = match[4];
+			eventListObj[i] = eventObj;
+			continue;
+		}
+		alert(event);
+	}
+	calendarObj.eventList = eventListObj;
+	var json = JSON.stringify(calendarObj);
+	document.getElementsByName('output')[0].value = json;
+	return false;
+}
+
+function getYear(semester,mon) {
+	if(parseInt(mon) > 7) {
+		return parseInt(semester) + 1911;
+	}
+	return parseInt(semester) + 1912;
+}
+</script>
+</head>
+<body>
+<form  onSubmit="return handleClick()">
+<div>
+<span>學年度:</span>
+</br>
+<input type="text" name="semester" />
+</br>
+</br>
+<span>All Event:</span>
+</br>
+<textarea name="events" style="width: 100%;height: 50%;">
+</textarea>
+</br>
+</br>
+<input type="submit" name="submit" value="轉換" />
+</br>
+</br>
+<textarea name="output" style="width: 100%;height: 50%;">
+</textarea>
+</div>
+</form>
+</body>
+</html>
